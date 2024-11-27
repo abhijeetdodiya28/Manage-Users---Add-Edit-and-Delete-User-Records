@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>insert user</title>
+    <link rel="stylesheet" href="/style2.css">
+</head>
+<body>
+    <h1>Insert into table</h1>
+    <form action="/user/add" method="post">
+         
+        <label for="id">id:</label><br>
+        <input type="text" name="id" id="id" required><br><br>
+
+        <label for="username">username:</label><br>
+        <input type="text" name="username" id="username" required><br><br>
+
+        <label for="password">Password:</label><br>
+        <input type="password" name="password" id="password" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" name="email" id="email" required><br><br>
+
+        <button type="submit">Add user</button>
+    </form>
+</body>
+</html>
